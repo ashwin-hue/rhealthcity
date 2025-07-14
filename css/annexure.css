@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  
+  border-top: 8px #A41E34 solid;
+  background-color: rgb(233, 230, 230);
+}
+
+
+.breadcrumb {
+  background: #f2f2f2;
+  color: black;
+  padding: 15px 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.academicsh6 {
+  font-size: 10px;
+}
+
+
+.video-hero-bg {
+  background-image: url('../assets/images/commitee.jpg');
+  
+}
+
+.container{
+  width: 1000px;
+}
+
+
+
+.title1{
+  text-align: center;
+  color: #A41E34;
+  font-size: 2rem;
+}
+.box {
+ padding-top: 1rem;
+ background-color: #f9f9f9;
+ border-radius: 1rem;
+ box-shadow: 0 0 8px rgba(49, 49, 50, 0.4);
+ margin-bottom: 2rem;
+}
+
+.box:hover{
+  box-shadow: 0 0 10px rgba(49, 49, 50, 0.5);
+  transform: scale(1.02);
+
+}
+
+.box h5{
+  color: #A41E34;
+  font-weight: 100;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  padding-top: 2rem;
+}
+.box p{
+  
+  
+  margin-left: 2rem ;
+  padding-bottom: 1rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+.box h6{
+  font-weight:bold;
+  margin-left: 2rem ;
+  padding-bottom: 0rem;
+  margin-right: 2rem;
+  margin-top: 0rem;
+}
+.box ul {
+   margin-left: 2rem ;
+  padding-bottom: 2rem;
+  margin-right: 2rem;
+  margin-top: 0rem;
+}
+
+
+
+
+/* Responsive tweaks */
+
+
+  
+
+@media (max-width: 576px) {
+  .container{
+    width: 400px;
+  }
+
+}
